@@ -1,0 +1,68 @@
+.octofit-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(80, 211, 255, 0.3), transparent 30%),
+    radial-gradient(circle at top right, rgba(98, 71, 255, 0.28), transparent 32%),
+    linear-gradient(180deg, #07111f 0%, #091423 55%, #040814 100%);
+}
+
+.octofit-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.octofit-link {
+  color: rgba(255, 255, 255, 0.72);
+  border-radius: 999px;
+  padding-inline: 1rem;
+}
+
+.octofit-link:hover,
+.octofit-link.active {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.octofit-hero {
+  padding-top: 1rem;
+}
+
+.octofit-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.45rem 0.9rem;
+  color: #7fe7ff;
+  background: rgba(127, 231, 255, 0.12);
+  border: 1px solid rgba(127, 231, 255, 0.18);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.octofit-panel,
+.octofit-card,
+.octofit-page {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(8, 16, 31, 0.72);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(18px);
+}
+
+.octofit-panel,
+.octofit-card,
+.octofit-page {
+  border-radius: 1.5rem;
+}
+
+.octofit-card {
+  min-height: 100%;
+}
+
+.octofit-page {
+  padding: 2rem;
+}
+
+.btn-light {
+  box-shadow: 0 14px 35px rgba(255, 255, 255, 0.18);
+}
